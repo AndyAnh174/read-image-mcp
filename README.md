@@ -1,4 +1,4 @@
-# Read Image MCP Server v1
+# Read Image MCP Server v1.0
 
 MCP (Model Context Protocol) server dùng **Google Gemini** để đọc và mô tả nội dung ảnh. Hỗ trợ cả ảnh đơn và nhiều ảnh cùng lúc (so sánh, đối chiếu).
 
