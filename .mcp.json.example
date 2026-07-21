@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "tavily-remote-mcp": {
+      "type": "http",
+      "url": "https://mcp.tavily.com/mcp/"
+    },
+    "tavily-remote": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.tavily.com/mcp/?tavilyApiKey=YOUR_TAVILY_API_KEY_HERE"
+      ]
+    },
+    "read-image": {
+      "command": "npx",
+      "args": [
+        "tsx",
+        "d:\\MCP\\read-image\\src\\index.ts"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE",
+        "GEMINI_MODEL": "gemini-2.5-flash"
+      }
+    }
+  }
+}
